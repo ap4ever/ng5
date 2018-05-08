@@ -1,0 +1,8 @@
+<ul>
+    <li *ngFor="let goal of goals; let i = index">
+      {{ goal }}
+    </li>
+  </ul>
+<strong>
+<a (click)="sendMeBack()" href="javascript:void(0);">Take me back</a>
+</strong>
